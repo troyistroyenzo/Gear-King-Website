@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document ITEM SHEET */
+
+.container {
+  overflow: hidden;
+  background: navy;
+  padding: 50px;
+  position: relative;
+ width: 100%;
+}
+
+.container .item {
+  padding-right: 110px;
+  display: inline-block;
+  height: 600px;
+padding: 10px;
+  margin: 20px;
+  background: #fff;
+  position: relative;
+}
+
+.container .item img {
+  width: 40%;
+padding: 50px;
+  display:inline-block;
+  float:left;
+  padding-:40px 40px 40px 40px;
+}
+
+.container .item .item-details, .button{
+
+display: inline;
+
+
+}
+
+h1{
+	font-size: 40px;
+	padding: 20px;
+	
+}
+
+li {
+	font-family: verdana;
+	font-size: 18px;
+	padding: 5px;
+	list-style: disc;
+
+	
+}
+
+a {
+	color: blue;
+	font-family: verdana;
+	border: 1px black;
+}
+
+.button {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	background: navy;
+	font-size: 20px;
+	
+}
+.button 

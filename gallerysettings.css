@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+table tr th img {
+	width: 300px;
+	height: 300px;
+}
+
+table {
+	align-content: center;
+
+}
+
+table, th, tr, td {
+	padding: 20px;
+	align-items: center;
+    padding-left: 50px;
+	position: relative
+}
+
+h1 {
+	align-content: center;
+	text-align: center;
+}
+

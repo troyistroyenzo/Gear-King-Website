@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document - Navigation Bar */
+
+.nav {
+	width: 100%;
+	height: 85px;
+	padding: 20px;
+	background-color: navy;
+	position: relative;
+}
+
+.nav ul {
+	float: left;
+}
+
+.nav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+.nav ul li a {
+	display: block;
+	font-family: verdana;
+	color: white;
+	font-size: 20px;
+	padding: 10px 30px 30px 30px ;
+	text-decoration: none; 
+	
+}
+
+.nav ul li ul{
+	display: block;
+	position: absolute;
+}
+
+
+
+.nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+	
+} 
+
+
+.nav ul li a:hover {
+	opacity: 75%;
+	transition: 0.4s;
+}
+
+.nav ul li ul {
+	display: none;
+	position: absolute;
+	background-color: navy;
+	padding-top: 5px;
+	border-radius: 0px 0px 11px 11px;	
+	top: 50px;
+
+
+}
+
+.nav ul li:hover ul {
+	display: block;
+
+}
+
+.nav ul li ul li {
+	width: 180px;
+	height: 90px;
+	border-radius: 4px;
+
+}
+
+.nav ul li ul li a:hover {
+	opacity: 75%;
+	transition: 0.4s;
+}
+
